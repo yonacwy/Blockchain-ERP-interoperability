@@ -58,3 +58,12 @@ docker volume prune
 * [VaibhavBhujade](https://github.com/VaibhavBhujade)
 * [Aakanksha2810](https://github.com/Aakanksha2810)
 * [shreyzo](https://github.com/shreyzo)
+
+
+#####
+
+Updated SCM to Odoo 17
+
+Still running test with Hyperledger Firefly
+
+So for now only the app works in Odoo 17 you have to run your own docker and hyperledger instances
