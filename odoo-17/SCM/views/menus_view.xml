@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Main Menu -->
+    <menuitem id="transaction_root"
+              name="Transaction"
+              sequence="1"/>  
+              
+        <!-- Menu -->            
+     <menuitem id="transaction_summary"
+              name="TransactionSummary"
+              action="action_summary"
+              parent="transaction_root"
+              sequence="2"/>             
+              
+        <!-- Menu -->              
+     <menuitem id="registerUser"
+              name="Register User"
+              action="register_user"
+              parent="transaction_root"
+              sequence="3"/>      
+           
+        <!-- Menu -->              
+     <menuitem id="query_"
+              name="Query"
+              action="queryit"
+              parent="transaction_root"
+              sequence="4"/>        
+             
+        <!-- Menu -->              
+     <menuitem id="enrollAdmin"
+              name="Enroll Admin"
+              action="enroll_admin"
+              parent="transaction_root"
+              sequence="5"/>                                     
+
+    </data>
+</odoo>

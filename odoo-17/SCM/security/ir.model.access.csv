@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_for_connection,SCM,model_connection,base.group_user,1,1,1,1
+
+access_for_enrollment,SCM,model_enrollment,base.group_user,1,1,1,1
+
+access_for_main,SCM,model_chiro_main,base.group_user,1,1,1,1
+
+access_for_query,SCM,model_query,base.group_user,1,1,1,1
+
+access_for_register,SCM,model_register,base.group_user,1,1,1,1
+
+access_for_transaction,SCM,model_transaction,base.group_user,1,1,1,1
+
