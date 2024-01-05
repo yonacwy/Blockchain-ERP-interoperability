@@ -4,7 +4,7 @@ access_for_connection,SCM,model_connection,base.group_user,1,1,1,1
 
 access_for_enrollment,SCM,model_enrollment,base.group_user,1,1,1,1
 
-access_for_main,SCM,model_chiro_main,base.group_user,1,1,1,1
+access_for_main,SCM,model_main,base.group_user,1,1,1,1
 
 access_for_query,SCM,model_query,base.group_user,1,1,1,1
 
